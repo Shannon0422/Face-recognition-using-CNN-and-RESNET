@@ -4,6 +4,8 @@
 
 **Motivation**: Learn how CNN and ResNet work in identifying multiple people then compare the accuracy rate of each deep learning algorithm.
 
+A Jupyter Notebook including the steps and code is included for reference. Slides and a detailed report will also be included for reference.
+
 ## Methodology:
 ### A. Convolutional Neural Network (CNN)
 CNNs are a class of deep neural networks consisting of convolutional, pooling, and 
@@ -22,4 +24,21 @@ creates extra links from a single layer to a future layer skipping several inter
 the learned mapping becomes the sum of the original function and an identity mapping. This results in a more direct flow of gradients in the backpropagation process.
 
 ## Results and comparison:
+**1. CNN**
+- Structure: 32-64-64-96-32
+- Training accuracy is 93% 
+- Validation accuracy is 40% 
+- Epoch 50
+- time/epoch: 270s
+
+**2. Resnet50**
+- Training accuracy is 92% 
+- Epoch 20
+- time/epoch: 540s
+
+**3. Resnet101**
+- Training accuracy is 99% 
+- Epoch 20
+- Time/epoch: 890s
+
 
